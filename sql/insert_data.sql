@@ -149,9 +149,7 @@ INSERT INTO Kaup(kauba_seisundi_liik_kood,kauba_kategooria_kood, tootja_kood, is
 INSERT INTO Kaup(kauba_seisundi_liik_kood, kauba_kategooria_kood, tootja_kood, isikukood, nimetus, hetke_hind, kirjeldus, loomise_aeg,kogus) VALUES (
 	2, 2, 2, '39301142531', 'Iphone 5s', 400.00, 'Vana Iphone heas seisundis', '2001-09-28 01:00:00',100
 );
-INSERT INTO Kaup(kauba_seisundi_liik_kood, kauba_kategooria_kood, tootja_kood, isikukood, nimetus, hetke_hind, kirjeldus, loomise_aeg,kogus ) VALUES (
-	2, 1, 2, '39301142531', 'Apple Watch', 1.000, 'Kaekellad, mis on seotud teie mobiiltelefoniga interneti kaudu.', '2001-09-28 01:00:00' ,50
-);
+
 INSERT INTO Kaup(kauba_seisundi_liik_kood, kauba_kategooria_kood, tootja_kood, isikukood, nimetus, hetke_hind, kirjeldus, loomise_aeg,kogus ) VALUES (
 	1, 3, 1, '39301142531', '48" Full-HD Flat TV J5100 Seri', 1.000, 'Vaga hea ja suur teler', '2001-09-28 01:00:00',22
 );
@@ -165,4 +163,7 @@ INSERT INTO Kaup(kauba_seisundi_liik_kood, kauba_kategooria_kood, tootja_kood, i
 	3, 4, 1, '39301142531', 'SAMSUNG PC 2002', 400.00, 'Sulearvuti', '2001-09-28 01:00:00' ,44
 );
 
+-- INSERT INTO Kaup(kauba_seisundi_liik_kood, kauba_kategooria_kood, tootja_kood, isikukood, nimetus, hetke_hind, kirjeldus, loomise_aeg,kogus ) VALUES (
+-- 	2, 1, 2, '39301142531', 'Apple Watch', 1.000, 'Kaekellad, mis on seotud teie mobiiltelefoniga interneti kaudu.', '2001-09-28 01:00:00' ,50
+-- );
 	

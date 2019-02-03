@@ -1,4 +1,5 @@
-*Parooli krupteerimine*/
+/*Parooli krupteerimine*/
+CREATE EXTENSION pgcrypto;
 UPDATE isik
 SET parool = public.crypt(parool,public.gen_salt('bf', 11));
 
